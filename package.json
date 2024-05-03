@@ -1,0 +1,16 @@
+{
+  "name": "nodejs-ai-image",
+  "version": "1.0.0",
+  "description": "Generate image by using openai ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gashaw Mucheye",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "express": "^4.19.2",
+    "openai": "^4.40.1"
+  }
+}
