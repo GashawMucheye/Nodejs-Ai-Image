@@ -13,9 +13,15 @@
 - controllers
 - routes
 
-  3.installed packages
+  3.install packages
 
 ```js
 npm i express openai colors
 
+```
+
+3.install nodemon
+
+```js
+npm i -D nodemon
 ```

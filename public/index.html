@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generate AI Image </title>
+    <!-- bootstrap cdn -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+
+    <script src="main.js" defer></script>
+</head>
+
+<body class="d-flex flex-column">
+    <header class="bg-dark text-center text-white">
+        <h1>Generate AI Image</h1>
+    </header>
+    <main>
+        <section class="showcase container mx-auto bg-warning text-center border mt-3 shadow-sm rounded p-2">
+            <form id="image-form">
+                <h1>Describe An Image</h1>
+                <div class="form-control my-1">
+                    <input type="text" id="prompt" placeholder="Enter Text" class="" />
+                </div>
+                <!-- size -->
+                <div class="form-control">
+                    <select name="size" id="size">
+                        <option value="small">Small</option>
+                        <option value="medium" selected>Medium</option>
+                        <option value="large">Large</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn bg-primary rounded-2 p-1 mt-1">Generate</button>
+            </form>
+        </section>
+
+        <section class="image container text-center">
+
+            <div class="image-container container mx-auto">
+                <h2 class="msg"></h2>
+                <img src="" alt="" id="image" />
+                <div class="loading-container">
+                    <div class="loader"></div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer class="bg-dark text-white text-center">&copy; All Rights Reserved</footer>
+</body>
+
+</html>
