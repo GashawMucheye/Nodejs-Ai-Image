@@ -27,4 +27,4 @@ npm i -D nodemon
 
 ```
 
-[openAi image](public/Ai_image.png)
+(public/Ai_image.png)
