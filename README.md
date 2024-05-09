@@ -24,4 +24,7 @@ npm i express openai colors
 
 ```js
 npm i -D nodemon
+
 ```
+
+[openAi image](public/Ai_image.png)
