@@ -4,13 +4,14 @@
   "description": "Generate image by using openai ",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
-    "dev": "node index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "author": "Gashaw Mucheye",
   "license": "ISC",
   "dependencies": {
     "colors": "^1.4.0",
+    "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "openai": "^3.1.0"
   },
